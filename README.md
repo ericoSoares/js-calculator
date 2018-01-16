@@ -1,2 +1,2 @@
-# js-calculator
-Just a simple JavaScript calculator
+# Simple JavaScript Calculator
+Nothing really interesting here, just playing with CSS and JS. :)

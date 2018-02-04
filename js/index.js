@@ -1,12 +1,9 @@
 var ans = "0";
 var hist = "";
 var arr = [];
-
+//Starts the app
 $(document).ready(function() {
-  
   update();
-  
-  
 });
 
 //RESET BUTTONS
@@ -21,7 +18,7 @@ $('#ce').click(function() {
   update();
 });
 
-//NUMBER BUTTONS
+//NUMBER BUTTONS (could be done better)
 $('#zero').click(function() {
   if(checkLength()) {
     if(!(ans == 0 && ans.length == 1)) {
